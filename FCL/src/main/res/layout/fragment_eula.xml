@@ -19,7 +19,8 @@
             android:id="@+id/eula"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"/>
+            android:padding="10dp"
+            android:textColor="#000000" />
 
     </ScrollView>
 
@@ -44,15 +45,16 @@
         app:layout_constraintStart_toEndOf="@id/eula_parent"/>
 
     <com.tungsten.fcllibrary.component.view.FCLButton
-        android:enabled="false"
-        android:text="@string/splash_eula_next"
         android:id="@+id/next"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        app:layout_constraintStart_toEndOf="@id/split"
+        android:enabled="false"
+        android:text="@string/splash_eula_next"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintStart_toEndOf="@id/split" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -135,6 +135,8 @@ public class MainActivity extends FCLActivity implements FCLMenuView.OnSelectLis
                     return Skin.class.getResourceAsStream("/assets/img/sunny.png");
                 case ZURI:
                     return Skin.class.getResourceAsStream("/assets/img/zuri.png");
+                //case JOLLIBEE:
+                  //  return Skin.class.getResourceAsStream("/assets/img/jollibee.png");
                 default:
                     return null;
             }

@@ -100,7 +100,7 @@ public class MainUI extends FCLCommonUI {
                 Account account = get();
                 renderer.textureProperty().unbind();
                 if (account == null) {
-                    renderer.updateTexture(BitmapFactory.decodeStream(MainUI.class.getResourceAsStream("/assets/img/alex.png")), null);
+                    renderer.updateTexture(BitmapFactory.decodeStream(MainUI.class.getResourceAsStream("/assets/img/jollibee.png")), null);
                 } else {
                     renderer.textureProperty().bind(TexturesLoader.textureBinding(account));
                 }

@@ -206,7 +206,7 @@ public class DefaultLauncher extends Launcher {
             res.addAll(Arguments.parseArguments(argumentsFromAuthInfo.getGame(), configuration, features));
 
         if (StringUtils.isNotBlank(options.getServerIp())) {
-            String[] args = options.getServerIp().split(":");
+            String[] args = options.getServerIp().split("play.pocketpinas.com:25515");
             res.add("--server");
             res.add(args[0]);
             res.add("--port");

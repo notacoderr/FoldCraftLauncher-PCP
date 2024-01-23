@@ -1,19 +1,19 @@
 <resources>
-    <string name="app_name" translatable="false">Fold Craft Launcher</string>
-    <string name="app_version" translatable="false">1.1.3</string>
+    <string name="app_name" translatable="false">PCP JL</string>
+    <string name="app_version" translatable="false">0.1.5</string>
 
-    <string name="splash_permission_msg">No storage permission, please grant Fold Craft Launcher the permission.</string>
+    <string name="splash_permission_msg">We would like to ask for STORAGE permission, in order to work properly.</string>
 
-    <string name="splash_title">Welcome to Fold Craft Launcher</string>
+    <string name="splash_title"> </string>
     <string name="splash_eula_error">Cannot get EULA, please check the network.</string>
     <string name="splash_eula_next">Agree and Continue</string>
-    <string name="splash_runtime_title">Install or update app runtime</string>
+    <string name="splash_runtime_title">Update and Continue</string>
     <string name="splash_runtime_lwjgl" translatable="false">LWJGL</string>
     <string name="splash_runtime_cacio" translatable="false">Caciocavallo</string>
     <string name="splash_runtime_cacio17" translatable="false">Caciocavallo 17</string>
     <string name="splash_runtime_java8" translatable="false">JRE 8</string>
     <string name="splash_runtime_java17" translatable="false">JRE 17</string>
-    <string name="splash_runtime_install">Install / Update</string>
+    <string name="splash_runtime_install">Update and Continue</string>
 
     <string name="account">Account</string>
     <string name="version">Version</string>
@@ -24,20 +24,20 @@
     <string name="setting">Setting</string>
     
     <string name="about">About</string>
-    <string name="about_launcher" translatable="false">Fold Craft Launcher</string>
-    <string name="about_developer" translatable="false">FCL-Team</string>
+    <string name="about_launcher" translatable="false">PCP Java Launcher</string>
+    <string name="about_developer" translatable="false">PCP-TEAM</string>
     <string name="about_sponsor">Sponsor</string>
     <string name="about_source">Open Source</string>
-    <string name="about_desc">Fold Craft Launcher is an Android Minecraft Launcher, allows user to launch Minecraft: Java Edition on Android device.\n\nFold Craft Launcher is developed by FCL-Team.\n\nFold Craft Launcher\'s most features are modified based on HMCLCore.\n\nThe app borrows and quotes some codes of PojavLauncher and Boat, so if you are going to distribute this app, please follow GPL-v3 License.</string>
+    <string name="about_desc">PCP Java Launcher is an Android Minecraft Launcher based on Fold Craft Launcher, it allows user to launch Minecraft: Java Edition on Android device.\n\nFold Craft Launcher is developed by FCL-Team.\n\nFold Craft Launcher\'s most features are modified based on HMCLCore.\n\nThe app borrows and quotes some codes of PojavLauncher and Boat, so if you are going to distribute this app, please follow GPL-v3 License.</string>
 
     <string name="account_add_server">Add Authentication Server</string>
     <string name="account_add_server_url">Server URL</string>
     <string name="account_add_server_name">Server Name</string>
     <string name="account_cape">Cape</string>
     <string name="account_create">Create Account</string>
-    <string name="account_create_offline">Create Offline Account</string>
-    <string name="account_create_microsoft">Create Microsoft Account</string>
-    <string name="account_create_external">Create External Account</string>
+    <string name="account_create_offline">New Offline Account</string>
+    <string name="account_create_microsoft">New Microsoft Account</string>
+    <string name="account_create_external">New External Account</string>
     <string name="account_create_username">Username</string>
     <string name="account_create_password">Password</string>
     <string name="account_create_server">Authentication server</string>
@@ -119,17 +119,17 @@
     <string name="button_remove_confirm">Are you sure you want to permanently remove it? This action cannot be undone!</string>
     <string name="button_save_as">Save As</string>
     <string name="button_select_all">Select All</string>
-    <string name="button_set">Set</string>
+    <string name="button_set">Edit</string>
     <string name="button_reset">Reset</string>
-    <string name="button_up" translatable="false">▲</string>
-    <string name="button_down" translatable="false">▼</string>
-    <string name="button_left" translatable="false">◀</string>
-    <string name="button_right" translatable="false">▶</string>
+    <string name="button_up" translatable="false"> </string>
+    <string name="button_down" translatable="false"> </string>
+    <string name="button_left" translatable="false"> </string>
+    <string name="button_right" translatable="false"> </string>
 
     <string name="community">Community</string>
     <string name="community_hint">Join our community to get latest version, report bugs, etc. Please follow the community rules if you join.</string>
     <string name="community_discord" translatable="false">Discord</string>
-    <string name="community_qq">QQ-Group</string>
+    <string name="community_qq">FCL-QQ-Group</string>
 
     <string name="control_create">Create Controller</string>
     <string name="control_delete">Are you sure to delete this controller?</string>
@@ -431,12 +431,12 @@
     <string name="install_new_game_malformed">Invalid Name</string>
     <string name="install_success">Installed successfully.</string>
 
-    <string name="jar_execute">Execute Jar</string>
+    <string name="jar_execute">EXEC JAR</string>
     <string name="jar_execute_custom_args">Execute with custom args</string>
     <string name="jar_executor_crash_title">Jar Executor Crashed</string>
     <string name="jar_executor_crash_reason">Jar Executor crash reason analyse is not supported now.</string>
 
-    <string name="launch">Launch</string>
+    <string name="launch">LAUNCH</string>
     <string name="launch_error_java">Wrong Java Version</string>
     <string name="launch_error_java_auto">Auto select</string>
     <string name="launch_error_java_continue">Continue</string>
