@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.tungsten.fclauncher'
+    namespace 'com.codeeeh.pcpjl' //'com.tungsten.fclauncher'
     compileSdk 34
 
     defaultConfig {

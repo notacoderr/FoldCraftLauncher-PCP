@@ -78,18 +78,19 @@ public final class DownloadProviders {
         MCBBS = new BMCLAPIDownloadProvider("https://download.mcbbs.net");
         rawProviders = mapOf(
                 pair("mojang", MOJANG),
-                pair("bmclapi", BMCLAPI),
-                pair("mcbbs", MCBBS)
+                pair("bmclapi", BMCLAPI)//,
+                //pair("mcbbs", MCBBS)
         );
 
         AdaptedDownloadProvider fileProvider = new AdaptedDownloadProvider();
-        fileProvider.setDownloadProviderCandidates(Arrays.asList(MCBBS, BMCLAPI, MOJANG));
-        BalancedDownloadProvider balanced = new BalancedDownloadProvider(Arrays.asList(MCBBS, BMCLAPI, MOJANG));
+        fileProvider.setDownloadProviderCandidates(Arrays.asList(/*MCBBS,*/ BMCLAPI, MOJANG));
+        BalancedDownloadProvider balanced = new BalancedDownloadProvider(Arrays.asList(/*MCBBS,*/ BMCLAPI, MOJANG));
 
         providersById = mapOf(
                 pair("official", new AutoDownloadProvider(MOJANG, fileProvider)),
-                pair("balanced", new AutoDownloadProvider(balanced, fileProvider)),
-                pair("mirror", new AutoDownloadProvider(MCBBS, fileProvider)));
+                pair("balanced", new AutoDownloadProvider(balanced, fileProvider))//,
+                //pair("mirror", new AutoDownloadProvider(MCBBS, fileProvider))
+        );
 
         observer = FXUtils.observeWeak(() -> {
             FetchTask.setDownloadExecutorConcurrency(

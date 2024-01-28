@@ -1,19 +1,19 @@
 <resources>
-    <string name="app_name" translatable="false">PCP JL</string>
-    <string name="app_version" translatable="false">0.1.5</string>
+    <string name="app_name" translatable="false">PCP Java Launcher</string>
+    <string name="app_version" translatable="false">v1-NextGeneration</string>
 
     <string name="splash_permission_msg">We would like to ask for STORAGE permission, in order to work properly.</string>
 
     <string name="splash_title"> </string>
     <string name="splash_eula_error">Cannot get EULA, please check the network.</string>
     <string name="splash_eula_next">Agree and Continue</string>
-    <string name="splash_runtime_title">Update and Continue</string>
+    <string name="splash_runtime_title">These Softwares are required to run MC:Java Edition.</string>
     <string name="splash_runtime_lwjgl" translatable="false">LWJGL</string>
     <string name="splash_runtime_cacio" translatable="false">Caciocavallo</string>
     <string name="splash_runtime_cacio17" translatable="false">Caciocavallo 17</string>
     <string name="splash_runtime_java8" translatable="false">JRE 8</string>
     <string name="splash_runtime_java17" translatable="false">JRE 17</string>
-    <string name="splash_runtime_install">Update and Continue</string>
+    <string name="splash_runtime_install">Install and Continue</string>
 
     <string name="account">Account</string>
     <string name="version">Version</string>
@@ -24,11 +24,11 @@
     <string name="setting">Setting</string>
     
     <string name="about">About</string>
-    <string name="about_launcher" translatable="false">PCP Java Launcher</string>
+    <string name="about_launcher" translatable="false">PocketPinas : Java Launcher</string>
     <string name="about_developer" translatable="false">PCP-TEAM</string>
     <string name="about_sponsor">Sponsor</string>
     <string name="about_source">Open Source</string>
-    <string name="about_desc">PCP Java Launcher is an Android Minecraft Launcher based on Fold Craft Launcher, it allows user to launch Minecraft: Java Edition on Android device.\n\nFold Craft Launcher is developed by FCL-Team.\n\nFold Craft Launcher\'s most features are modified based on HMCLCore.\n\nThe app borrows and quotes some codes of PojavLauncher and Boat, so if you are going to distribute this app, please follow GPL-v3 License.</string>
+    <string name="about_desc">PCP Java Launcher is an Android Minecraft Launcher based on FC Launcher, it allows user to launch Minecraft: Java Edition on Android device.\n\nFold Craft Launcher is developed by FCL-Team.\n\nPCP Java Launcher\'s most features are modified based on HMCLCore.\n\nThe app borrows and quotes some codes of PojavLauncher and Boat, so if you are going to distribute this app, please follow GPL-v3 License.</string>
 
     <string name="account_add_server">Add Authentication Server</string>
     <string name="account_add_server_url">Server URL</string>

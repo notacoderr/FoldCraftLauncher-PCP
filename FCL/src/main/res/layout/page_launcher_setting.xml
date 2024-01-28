@@ -376,12 +376,12 @@
                         android:text="@string/settings_launcher_download_source"/>
 
                     <com.tungsten.fcllibrary.component.view.FCLCheckBox
-                        android:layout_marginTop="10dp"
-                        app:auto_hint_tint="true"
-                        android:text="@string/settings_launcher_download_source_auto"
+                        android:id="@+id/check_auto_source"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/check_auto_source"/>
+                        android:layout_marginTop="10dp"
+                        android:text="@string/settings_launcher_download_source_auto"
+                        app:auto_hint_tint="true" />
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_marginTop="10dp"
